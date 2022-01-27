@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: left;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ecf0f1;
+}
+
+.container {
+    max-width: 450px;
+    margin: auto;
+}
+
+.song {
+    background-color: #3498db;
+    width: 100vw;
+    
+}
+
+
+.song h1 {
+    margin-top: 0;
+}
+
+.lyrics p {
+    margin: 0;
+}
+
+.header > p, .header > p a {
+    color: #f1c40f;
+    margin-bottom: 0;
+}
