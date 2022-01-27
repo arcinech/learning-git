@@ -33,7 +33,12 @@ body {
     margin: 0;
 }
 
-.header > p, .header > p a {
+footer > p, footer > p a {
     color: #f1c40f;
     margin-bottom: 0;
+}
+
+footer > p a:hover {
+    color: #c0392b;
+    transition: 1s all;
 }
